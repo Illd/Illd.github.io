@@ -1,0 +1,88 @@
+html {
+    background-color: #ffffff;
+    background-image: url('bg.png'); 
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#video_background {
+position: absolute;
+bottom: 0px; 
+right: 0px;
+min-width: 100%;
+min-height: 100%;
+z-index: -1000;
+overflow: hidden;
+}
+
+#innhold {
+position:absolute;
+top:110px;
+}
+#topmenu {
+    width: 249px;
+    height: 28px;
+    position:absolute;
+    left:4px;
+    top:4px;
+    background-image: url('topmenu.png'); 
+    padding-top: 10px;
+}
+
+#topmenu:hover {
+    background-image: url('topmenublank.png'); 
+}
+
+#topmenulink {
+    width: 238px;
+    height: 15px;
+    position:absolute;
+    left:4px;
+    top:9px;
+    background-image: url('topmenublank.png'); 
+    padding-top: 10px;
+     
+}
+
+#topmenulink:hover {
+    background-image: url('oneparametergroup.png'); 
+}
+
+#midmenu {
+    width: 205px;
+    height: 23px;
+    position:absolute;
+    left:4px;
+    top:36px;
+    background-image: url('midmenu.png'); 
+    padding-top: 7px;
+     padding-left: 7px;
+    color: rgba(0, 0, 0, 0);
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+}
+
+#midmenu:hover {
+    background-image: url('midmenublank.png'); 
+    color: rgba(0, 0, 0, 1);
+}
+
+#botmenu {
+    width: 166px;
+    height: 20px;
+        position:absolute;
+    left:4px;
+    top:64px;
+    background-image: url('botmenu.png'); 
+    padding-top: 7px;
+    padding-left: 7px;
+    color: rgba(0, 0, 0, 0);
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+}
+
+#botmenu:hover {
+    background-image: url('botmenublank.png'); 
+    color: rgba(0, 0, 0, 1);
+    
+}
